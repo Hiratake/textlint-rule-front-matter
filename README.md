@@ -1,6 +1,6 @@
 # textlint-rule-front-matter
 
-[![ci](https://github.com/Hiratake/hiratake-web/actions/workflows/ci.yaml/badge.svg)](https://github.com/Hiratake/hiratake-web/actions/workflows/ci.yaml)
+[![ci](https://github.com/Hiratake/textlint-rule-front-matter/actions/workflows/ci.yaml/badge.svg)](https://github.com/Hiratake/textlint-rule-front-matter/actions/workflows/ci.yaml)
 ![version](https://img.shields.io/npm/v/%40hiratake%2Ftextlint-rule-front-matter)
 ![license](https://img.shields.io/npm/l/%40hiratake%2Ftextlint-rule-front-matter)
 
