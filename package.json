@@ -36,9 +36,26 @@
   "volta": {
     "node": "20.11.0"
   },
+  "dependencies": {
+    "gray-matter": "4.0.3"
+  },
   "devDependencies": {
+    "@commitlint/cli": "18.6.0",
+    "@commitlint/config-conventional": "18.6.0",
+    "@semantic-release/changelog": "6.0.3",
+    "@semantic-release/git": "10.0.1",
     "@textlint/types": "14.0.0",
     "@types/node": "20.11.16",
+    "@typescript-eslint/eslint-plugin": "6.20.0",
+    "@typescript-eslint/parser": "6.20.0",
+    "eslint": "8.56.0",
+    "eslint-config-prettier": "9.1.0",
+    "eslint-config-standard": "17.1.0",
+    "husky": "9.0.10",
+    "lint-staged": "15.2.1",
+    "prettier": "3.2.5",
+    "rimraf": "5.0.5",
+    "semantic-release": "23.0.0",
     "textlint-scripts": "14.0.0",
     "textlint-tester": "14.0.0",
     "ts-node": "10.9.2",
@@ -47,7 +64,12 @@
   "scripts": {
     "build": "textlint-scripts build",
     "watch": "textlint-scripts build --watch",
+    "lint": "eslint . --ext .js,.cjs,.mjs,.ts,.cts,.mts",
+    "lint:fix": "eslint . --ext .js,.cjs,.mjs,.ts,.cts,.mts --fix",
+    "typecheck": "tsc --noEmit -p tsconfig.node.json --composite false",
+    "format": "prettier \"**/!(*.md)\" -wu",
     "test": "textlint-scripts test",
+    "prebuild": "rimraf lib",
     "prepublishOnly": "pnpm build",
     "prepare": "husky"
   }
