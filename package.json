@@ -5,6 +5,7 @@
   "publishConfig": {
     "access": "public"
   },
+  "description": "Textlint rule for YAML Front Matter",
   "keywords": [
     "textlintrule"
   ],
