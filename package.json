@@ -30,12 +30,12 @@
     "test": "test"
   },
   "type": "commonjs",
-  "packageManager": "pnpm@8.15.1",
+  "packageManager": "pnpm@8.15.6",
   "engines": {
-    "node": ">=18.14.0"
+    "node": ">=18.18.0"
   },
   "volta": {
-    "node": "20.11.0"
+    "node": "20.12.1"
   },
   "dependencies": {
     "gray-matter": "4.0.3"
