@@ -30,7 +30,7 @@
     "test": "test"
   },
   "type": "commonjs",
-  "packageManager": "pnpm@8.15.6",
+  "packageManager": "pnpm@9.15.5",
   "engines": {
     "node": ">=18.18.0"
   },
