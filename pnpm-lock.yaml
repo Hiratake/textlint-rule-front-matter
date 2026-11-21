@@ -23,8 +23,8 @@ devDependencies:
     specifier: 10.0.1
     version: 10.0.1(semantic-release@24.0.0)
   '@textlint/types':
-    specifier: 14.0.1
-    version: 14.0.1
+    specifier: 16.1.2
+    version: 16.1.2
   '@types/node':
     specifier: 20.11.16
     version: 20.11.16
@@ -1919,6 +1919,10 @@ packages:
     resolution: {integrity: sha512-7yc69/ip20OG3TrueSeGh/fSwZSuzxFkrxlMDDhWwSxq+/MXczshRx9HRczoy4uvecLgl1NHy/A1En6j4ag34A==}
     dev: true
 
+  /@textlint/ast-node-types@16.1.2:
+    resolution: {integrity: sha512-++pb7qwrQAZrvqyhDEmRCgRHTGiYYR3HOcKmiNMhFOkDFZ+YUYcRxRWKLTcktv4Rw8xQn3NBHnIGw9hIVH9RCw==}
+    dev: true
+
   /@textlint/ast-tester@14.0.1:
     resolution: {integrity: sha512-SOdWGQCoJHOSTvYMKXRh/GLfAqK7gPuYEg+ATFviO+0eETWvQEj9Z5C7PGeVaA9R8nbiP6fFOyZ4C91yhnMuBQ==}
     dependencies:
@@ -2004,6 +2008,12 @@ packages:
     resolution: {integrity: sha512-LkM32+LgEFRBYnNuB8OqVfAV7t6X7qSh2l6QEC7OTr1HQi4hB5by8ahnasn8FJzGh7ytFAHLDUXZKoN6LuduoQ==}
     dependencies:
       '@textlint/ast-node-types': 14.0.1
+    dev: true
+
+  /@textlint/types@16.1.2:
+    resolution: {integrity: sha512-/Qzj17FJSrL3Wtki6yruKLWmBKHo+uHNVAgII+/T0+XwbKh6mDtivxivSCp+cuyIrmuMBKYc/FTFvP1rRpJEIw==}
+    dependencies:
+      '@textlint/ast-node-types': 16.1.2
     dev: true
 
   /@textlint/utils@14.0.1:
